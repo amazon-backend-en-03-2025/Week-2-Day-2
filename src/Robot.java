@@ -1,15 +1,13 @@
 public class Robot {
-    private String model;
+    private final String MODEL; // constant = it cannot be modified
 
     public String getModel() {
-        return model;
+        return MODEL;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
+
 
     public Robot(String model) {
-        this.model = model;
+        this.MODEL = model;
     }
 }
